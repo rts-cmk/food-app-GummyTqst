@@ -10,6 +10,7 @@ import { faHouse, faUser, faPlus, faClipboardList, faHeart } from "@fortawesome/
 export default function Layout () {
     return (
         <div className="app-container">
+            {/* Page content */}
             <Outlet />
 
             <nav className="bottom-nav">
