@@ -16,9 +16,7 @@ const router = createBrowserRouter([
       { path: "/favorites", element: <Favorites /> },
     ],
   },
-
 ])
-
 
 function App() {
   

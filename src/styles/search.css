@@ -1,6 +1,7 @@
 .search-bar-container {
   display: flex;
   margin: 20px 0;
+  font-family: "Roboto", sans-serif;
 }
 
 .search-input-wrapper {
