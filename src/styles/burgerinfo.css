@@ -1,0 +1,94 @@
+.burger-info-page {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.back-btn {
+    border: none;
+    outline: none;
+    background-color: white;
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.burger-options {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.spice-options {
+    width: 100%;
+    margin-top: 1rem;
+    margin-right: 2.5rem;
+}
+
+.spice-label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.spice-slider {
+    width: 100%;
+    accent-color: #EF2A39;
+}
+
+.spice-text {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.25rem;
+}
+
+.spice-mild {
+    color: #1CC019;
+}
+
+.spice-hot {
+    color: #EF2A39;
+}
+
+.portion-options {
+    display: flex;
+    align-items: center;
+}
+
+.portion-options button {
+    border: none;
+    background-color: #EF2A39;
+    color: white;
+    border-radius: 8px;
+    width: 40px;
+    height: 40px;
+}
+
+.portion-options span {
+    margin: 0 0.75rem;
+    font-size: 1.2rem;
+}
+
+.burger-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+}
+
+.burger-order {
+    background-color: #3C2F2F;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 12px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+.burger-price {
+    padding: 1rem 2rem;
+    background-color: #EF2A39;
+    color: white;
+    border-radius: 12px;
+    font-size: 1.2rem;
+}

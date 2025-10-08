@@ -1,0 +1,22 @@
+.home-page{
+    padding: 20px;
+    overflow: scroll;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-img img {
+    width: 60px;
+    height: 60px;
+    margin-top: 20px;
+}
+
+.food-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 22px;   
+}
