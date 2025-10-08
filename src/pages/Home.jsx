@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import burgerData from "../API/api.json";
 
+import { useNavigate } from "react-router";
+
 // Components
 import Search from "../components/Search";
 import FoodCard from "../components/FoodCard";
@@ -13,6 +15,7 @@ import "../styles/Home.css";
 
 export default function Home() {
     const [burgers, setBurgers] = useState([]);
+    const navigate = useNavigate();
 
     useEffect(() => {
         setBurgers(burgerData.burgers);
@@ -26,7 +29,7 @@ export default function Home() {
                     <h1>Foodgo</h1>
                     <p>Order your favourite food!</p>
                 </div>
-                <div className="header-img">
+                <div className="header-img" onClick={() => navigate("/profile")}>
                     <img src={profileImg} alt="" />
                 </div>
             </div>
