@@ -20,8 +20,7 @@ export default function Home() {
     useEffect(() => {
         setBurgers(burgerData.burgers);
     }, [])
-
-
+    
     return (
         <section className="home-page">
             <div className="header">

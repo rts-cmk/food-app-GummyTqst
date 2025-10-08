@@ -18,6 +18,7 @@
     justify-content: space-between;
     padding: 20px;
     box-sizing: border-box;
+    z-index: 100;
 }
 
 .header-top {
@@ -59,10 +60,10 @@
 
 .profile-body {
     padding: 80px 20px 20px;
+    position: relative;
+    z-index: 1;
     border-top-left-radius: 40px;
     border-top-right-radius: 40px;
-    position: relative;
-    z-index: 5;
 }
 
 
