@@ -1,0 +1,26 @@
+.profile-form {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 100%;
+}
+
+.profile-form fieldset {
+    padding: 1rem 2rem;
+    border: 1px solid #808080;
+    border-radius: 12px;
+    position: relative;
+}
+
+.profile-form legend {
+    padding: 0 8px;
+    color: #777;
+}
+
+fieldset input {
+    border: none;
+    outline: none;
+    width: 100%;
+    background: transparent;
+    padding-top: 4px;
+}

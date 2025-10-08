@@ -4,6 +4,7 @@ import Profile from "./pages/Profile"
 import Orders from "./pages/Orders"
 import Favorites from "./pages/Favorites"
 import Layout from "./components/Layout"
+import BurgerInfo from "./pages/BurgerInfo"
 
 const router = createBrowserRouter([
   {
@@ -14,6 +15,7 @@ const router = createBrowserRouter([
       { path: "/profile", element: <Profile /> },
       { path: "/orders", element: <Orders /> },
       { path: "/favorites", element: <Favorites /> },
+      { path: "/info/:id", element: <BurgerInfo /> },
     ],
   },
 ])

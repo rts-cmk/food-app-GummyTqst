@@ -1,0 +1,23 @@
+.profile-btns {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+}
+
+.profile-logout {
+    background-color: white;
+    color: #EF2A39;
+    border: 2px solid #EF2A39;
+}
+
+.profile-btns button {
+    padding: 1rem 2rem;
+    border-radius: 12px;
+    outline: none;
+}
+
+.profile-edit {
+    background-color: #3C2F2F;
+    color: white;
+    border: none;
+}

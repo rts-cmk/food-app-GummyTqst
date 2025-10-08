@@ -1,5 +1,6 @@
 .home-page{
     padding: 20px;
+    overflow: scroll;
 }
 
 /* Header */

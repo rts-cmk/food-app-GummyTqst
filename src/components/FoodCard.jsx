@@ -1,10 +1,17 @@
+import { useNavigate } from "react-router";
 import "../styles/FoodCard.css";
 
 export default function FoodCard({ burger }) {
+    const navigate = useNavigate()
+
     if (!burger) return null;
 
+    const handleClick = () => {
+        navigate(`/info/${burger.id}`);
+    }
+
     return (
-        <div className="food-card">
+        <div className="food-card" onClick={handleClick}>
             <img src={burger.img} alt={burger.shortName} className="food-card-img" />
             <div className="food-card-content">
                 <div className="food-card-title">
